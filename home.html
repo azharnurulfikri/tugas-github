@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Profile - Azhar Nurul Fikri</title>
+    <style>
+        /* Reset dasar */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #444;
+            background-color: #ffffff; /* Putih agar menyatu dengan Iframe */
+            padding: 20px;
+        }
+
+        /* Container utama disesuaikan agar pas di Iframe */
+        .profile-container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .profile-header {
+            margin-bottom: 20px;
+            border-left: 5px solid #007bff;
+            padding-left: 15px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+
+        h1 span {
+            color: #007bff;
+            font-weight: 800;
+        }
+
+        .sub-title {
+            font-size: 1rem;
+            color: #7f8c8d;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #eee;
+            margin: 20px 0;
+        }
+
+        h3 {
+            color: #2c3e50;
+            font-size: 1.3rem;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Dekorasi Judul */
+        h3::before {
+            content: "";
+            width: 8px;
+            height: 20px;
+            background: #007bff;
+            display: inline-block;
+            margin-right: 10px;
+            border-radius: 2px;
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 15px;
+            font-size: 1.05rem;
+        }
+
+        .highlight {
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        /* List Keahlian Singkat */
+        .skills-tag {
+            display: inline-block;
+            background: #e9ecef;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="profile-container">
+    <div class="profile-header">
+        <h1>Halo, Saya <span>Azhar Nurul Fikri</span></h1>
+        <p class="sub-title">Junior Web Developer | Tech Enthusiast</p>
+    </div>
+    
+    <hr />
+    
+    <h3>Tentang Saya</h3>
+    <p>
+        Perkenalkan, nama saya <span class="highlight">Azhar Nurul Fikri</span>. Saat ini, saya merupakan mahasiswa Teknik Informatika yang sedang menempuh program Studi Independen Bersertifikat (SIB) di <span class="highlight">NF Academy</span> dengan fokus pada Fullstack Web Development.
+    </p>
+    
+    <p>
+        Melalui program ini, saya mendalami berbagai teknologi modern untuk membangun aplikasi web yang responsif dan fungsional, mulai dari perancangan antarmuka menggunakan Bootstrap hingga logika sisi server.
+    </p>
+
+    <p>
+        Proyek ini adalah bagian dari implementasi nyata pembelajaran saya mengenai struktur <span class="highlight">Responsive Web Design</span>. Saya memiliki antusiasme tinggi untuk terus belajar dan berkontribusi dalam dunia teknologi informasi.
+    </p>
+
+    <h3>Keahlian & Fokus</h3>
+    <div class="skills-area">
+        <span class="skills-tag">HTML5 & CSS3</span>
+        <span class="skills-tag">Bootstrap 5</span>
+        <span class="skills-tag">JavaScript</span>
+        <span class="skills-tag">Responsive Design</span>
+        <span class="skills-tag">UI/UX Basic</span>
+    </div>
+</div>
+
+</body>
+</html>
